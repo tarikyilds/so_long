@@ -95,9 +95,14 @@ int	main(int arg, char **argc)
 	if (arg == 2)
 	{
 		item = (t_data *) ft_calloc(sizeof(t_data), 1);
+		if (!item)
+			exit(1);
+		if (check_map_type(argc[1]))
+			get_map(item, argc[1]);
+		else
+			map_type_error();
 	}
 	else
 		ft_printf("Hata!\nYanlis Arguman Verildi.");
 	exit(1);
-	
 }

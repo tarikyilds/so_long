@@ -7,6 +7,7 @@
 #include "../mlx/mlx.h"
 #include "../ft_printfa/ft_printf.h"
 #include "../get_next_linea/get_next_line.h"
+#include "../libfta/libft.h"
 
 typedef struct s_data
 {
@@ -19,5 +20,5 @@ typedef struct s_data
 	int		position_y;
 }				t_data;
 
-char	*get_map(char *str);
+char *get_map(t_data *item, char *str);
 #endif

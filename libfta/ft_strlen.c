@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyildiri <42istanbul.com.tr>               +#+  +:+       +#+        */
+/*   By: tyildiri <tyildiri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 14:11:49 by tyildiri          #+#    #+#             */
-/*   Updated: 2022/01/07 12:29:22 by tyildiri         ###   ########.tr       */
+/*   Updated: 2022/06/07 18:20:55 by tyildiri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s)
+size_t	ft_strlen_lib(const char *s)
 {
 	size_t	len;
 

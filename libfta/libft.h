@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyildiri <42istanbul.com.tr>               +#+  +:+       +#+        */
+/*   By: tyildiri <tyildiri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/07 10:41:30 by tyildiri          #+#    #+#             */
-/*   Updated: 2022/01/20 02:57:51 by tyildiri         ###   ########.tr       */
+/*   Updated: 2022/06/07 18:20:59 by tyildiri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ typedef struct s_list
 }	t_list;
 
 void	ft_bzero(void *s, size_t n);
-size_t	ft_strlen(const char *s);
+size_t	ft_strlen_lib(const char *s);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 int		ft_atoi(const char *str);
 int		ft_isalnum(int c);
